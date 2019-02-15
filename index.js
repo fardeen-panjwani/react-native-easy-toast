@@ -115,7 +115,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left: 0,
     right: 0,
-    bottom: 7,
     elevation: 999,
     alignItems: 'center',
     justifyContent: 'center',
@@ -149,9 +148,9 @@ Toast.propTypes = {
 };
 
 Toast.defaultProps = {
-  position: 'bottom',
+  position: 'center',
   textStyle: styles.text,
-  positionValue: 95,
+  positionValue: 0,
   fadeInDuration: 500,
   fadeOutDuration: 500,
   opacity: 0.875
